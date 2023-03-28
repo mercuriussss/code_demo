@@ -1,4 +1,4 @@
-package com.ourorboros.springbootpractice;
+package com.ouroboros.springbootpractice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

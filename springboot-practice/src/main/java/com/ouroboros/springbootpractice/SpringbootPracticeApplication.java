@@ -1,4 +1,4 @@
-package com.ourorboros.springbootpractice;
+package com.ouroboros.springbootpractice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

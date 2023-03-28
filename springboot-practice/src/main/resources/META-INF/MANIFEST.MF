@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Main-Class: com.ouroboros.springbootpractice.SpringbootPracticeApplicati
+ on
+Class-Path: spring-jcl-5.3.25.jar unbescape-1.1.6.RELEASE.jar thymeleaf-
+ 3.0.15.RELEASE.jar spring-boot-starter-tomcat-2.7.8.jar jul-to-slf4j-1.
+ 7.36.jar spring-boot-starter-json-2.7.8.jar jackson-datatype-jdk8-2.13.
+ 4.jar thymeleaf-spring5-3.0.15.RELEASE.jar tomcat-embed-core-9.0.71.jar
+  spring-boot-starter-web-2.7.8.jar jackson-databind-2.13.4.2.jar thymel
+ eaf-extras-java8time-3.0.4.RELEASE.jar spring-boot-autoconfigure-2.7.8.
+ jar spring-boot-starter-2.7.8.jar spring-boot-starter-aop-2.7.8.jar log
+ back-classic-1.2.11.jar jackson-module-parameter-names-2.13.4.jar tomca
+ t-embed-el-9.0.71.jar spring-core-5.3.25.jar spring-boot-starter-thymel
+ eaf-2.7.8.jar logback-core-1.2.11.jar spring-webmvc-5.3.25.jar spring-a
+ op-5.3.25.jar spring-context-5.3.25.jar snakeyaml-1.30.jar jackson-anno
+ tations-2.13.4.jar spring-boot-starter-logging-2.7.8.jar spring-beans-5
+ .3.25.jar spring-boot-2.7.8.jar attoparser-2.0.5.RELEASE.jar spring-exp
+ ression-5.3.25.jar aspectjweaver-1.9.7.jar slf4j-api-1.7.36.jar jakarta
+ .annotation-api-1.3.5.jar jackson-datatype-jsr310-2.13.4.jar groovy-2.5
+ .1.jar tomcat-embed-websocket-9.0.71.jar spring-web-5.3.25.jar log4j-to
+ -slf4j-2.17.2.jar jackson-core-2.13.4.jar log4j-api-2.17.2.jar
+
