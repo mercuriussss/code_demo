@@ -2,6 +2,7 @@ package com.ouroboros.smallspring.springframework;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class BeanFactory {
 
@@ -13,5 +14,6 @@ public class BeanFactory {
 
     public void registerBeanDefinition(String beanName, BeanDefinition beanDefinition) {
         beanDefinitionMap.put(beanName, beanDefinition);
+        ReentrantLock
     }
 }

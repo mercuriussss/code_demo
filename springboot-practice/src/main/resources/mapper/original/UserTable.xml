@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ouroboros.springbootpractice.dao.original.UserTableDAO">
+
+    <resultMap id="BaseResultMap" type="com.ouroboros.springbootpractice.pojo.UserTableDO">
+        <id column="user_id" jdbcType="VARCHAR" property="userId"/>
+        <result column="test_name" jdbcType="VARCHAR" property="testName"/>
+    </resultMap>
+
+    <!-- 表所有字段 -->
+    <sql id="Base_Column_List">
+        user_id,
+        test_name
+    </sql>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from user_table
+    </select>
+
+</mapper>
